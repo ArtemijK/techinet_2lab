@@ -1,0 +1,74 @@
+body {
+	background: content-box radial-gradient(crimson, black);
+	color: white;
+}
+
+.parent {
+	width: 100%;
+}
+
+.bblock {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    float: left;
+    width: 50%;
+    /* margin-right: 2%; */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form {
+	width: 50%;
+}
+
+img {
+	border-radius: 8px;
+	display: block;
+	margin: auto;
+	padding: 5px;
+	width: 300px;
+}
+
+h1{
+	/* Используем шрифт, подключённый в коде HTML: */
+	font-family: Satisfy, 'Times New Roman', Arial, cursive;
+	font-weight:normal;
+	font-size:40px;
+	padding-top: 60px;
+}
+
+h3 {
+	color: red;
+}
+ 
+input[type=submit] {
+    border: 1px solid #f44c0e;
+    color: #fff;
+    background: tomato;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+input[type=submit]:hover {
+    background: #f44c0e;
+}
+
+input[type=text]{
+	-webkit-transition: width 3.4s ease-in-out 3.4s;
+	transition: width 3.4s ease-in-out 3.4s;
+	border: 2px solid red;
+	border-radius: 4px;
+}  
+
+input[type=text]:focus{
+	width: 20%;
+}
+
+textarea{
+	border: 2px solid red;
+	border-radius: 4px;
+}
+
+
+
+
